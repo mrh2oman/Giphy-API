@@ -1,0 +1,71 @@
+body{
+	background-image: url(../images/organic-tiles.png);
+}
+
+.btns:hover {
+	background-color: #3e4141;
+	border-color: #aec1c0;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #aec1c0;
+}
+
+.btns {
+	color: #013535;
+	border-radius: 6px;
+	font-family: 'Playfair Display', serif;
+	background-color:#d5e4e4;
+	margin:2px;
+	
+
+}
+
+#user-search {
+	/* glyphicon for search bar mag glass or something fun	*/
+	background-image: url("../images/batman.png");
+	width: 30%;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.jumbotron {
+	width: 100%;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+
+}
+
+.headImage {
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	font-family: 'Playfair Display', serif;
+
+}
+
+
+.sellYourself{
+	display: inline-block;
+
+
+}
+
+footer,
+.push {
+  height: 105px;
+	display: inline-block;
+}
+
+@media (max-height: 617px) and (min-height: 350px) {
+	.btns {
+		margin: 0;
+		padding: 5px;
+		font-size: 7px;
+	}
+	.btns:hover {
+		font-size: 12px;
+	}
+	#user-search {
+		width: 50%;
+	}
+}
